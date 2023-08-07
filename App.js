@@ -2,6 +2,7 @@ import React from 'react';
 import { View, StyleSheet} from "react-native";
 import CurrentWeather from './src/screens/CurrentWeather';
 import UpcomingWeather from './src/screens/UpcomingWeather';
+import City from './src/screens/City';
 
 
 const App = () =>{
@@ -10,8 +11,9 @@ const App = () =>{
 	return (
 		<View style={styles.container}>
 			{/* <CurrentWeather/> */}
-			<UpcomingWeather/>
+			{/* <UpcomingWeather/> */}
 			{/* <OurChild message="This is the test message!"/> */}
+			<City/>
 		</View>
 	)
 }
